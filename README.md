@@ -16,4 +16,6 @@ Daily Disciplines was created to change that. It's a small, cozy space where bui
 
 ##  Made with Love by Phoenix Li, for the lovely souls on this world. 
 ##  You are the ones who make the world better, you deserve to  be loved, and this app is a proof that you are loved.
-### Connect with the author :https://www.linkedin.com/in/xintongli3/, always open for suggestions especially if you find this tool useful for you
+
+
+Connect with the author :https://www.linkedin.com/in/xintongli3/, always open to suggestions especially if you are neurodivergentand would love more features to support you.
