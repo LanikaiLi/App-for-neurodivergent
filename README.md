@@ -15,4 +15,4 @@ Daily Disciplines was created to change that. It's a small, cozy space where bui
 - You put others first so often that you forget you matter too
 
 ##  Made with Love by Phoenix Li, for the lovely souls on this world. 
-##  You are the ones who make the world better, you deserve the best love.
+##  You are the ones who make the world better, you deserve to  be loved, and this app is a proof that you are loved.
