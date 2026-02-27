@@ -18,4 +18,4 @@ Daily Disciplines was created to change that. It's a small, cozy space where bui
 ##  You are the ones who make the world better, you deserve to  be loved, and this app is a proof that you are loved.
 
 
-Connect with the author :https://www.linkedin.com/in/xintongli3/, always open to suggestions especially if you are neurodivergentand would love more features to support you.
+Connect with the author :https://www.linkedin.com/in/xintongli3/, always open to suggestions especially if you are neurodivergent and want any features to support you.
