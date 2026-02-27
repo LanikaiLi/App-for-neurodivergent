@@ -495,7 +495,7 @@ body {
 }
 
 .pts-custom-input {
-  width: 36px;
+  width: 44px;
   border: none;
   background: transparent;
   font-family: var(--font);
@@ -606,7 +606,7 @@ body {
 }
 
 .manage-points-input {
-  width: 36px;
+  width: 44px;
   border: none;
   border-bottom: 2px solid var(--golden);
   background: transparent;

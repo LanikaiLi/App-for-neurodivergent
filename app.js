@@ -374,7 +374,7 @@
         '<span class="manage-card-name">' + escapeHtml(disc.name) + '</span>' +
         '<div class="manage-points">' +
           '<span class="points-star">★</span>' +
-          '<input type="number" class="manage-points-input" value="' + disc.points + '" min="1" max="50" data-id="' + disc.id + '" data-action="points">' +
+          '<input type="number" class="manage-points-input" value="' + disc.points + '" min="1" max="500" data-id="' + disc.id + '" data-action="points">' +
         '</div>' +
         '<button class="manage-delete-btn" data-id="' + disc.id + '" title="Delete permanently">✕</button>';
       $manageList.appendChild(card);
@@ -404,7 +404,7 @@
       if (!ptDisc) return;
       var val = parseInt(e.target.value) || 1;
       if (val < 1) val = 1;
-      if (val > 50) val = 50;
+      if (val > 500) val = 500;
       e.target.value = val;
       ptDisc.points = val;
       saveDisciplines(disciplines);
@@ -484,7 +484,7 @@
 
     var pts = parseInt($addPoints.value) || 5;
     if (pts < 1) pts = 1;
-    if (pts > 50) pts = 50;
+    if (pts > 500) pts = 500;
 
     disciplines.push({
       id: generateId(),

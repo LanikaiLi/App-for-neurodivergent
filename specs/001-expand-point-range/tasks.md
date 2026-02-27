@@ -19,7 +19,7 @@
 
 **Purpose**: No setup needed — existing project structure is unchanged. No new files, no new dependencies.
 
-- [ ] T001 Verify current branch is 001-expand-point-range and working directory is clean
+- [x] T001 Verify current branch is 001-expand-point-range and working directory is clean
 
 ---
 
@@ -29,9 +29,9 @@
 
 **Independent Test**: Create a new discipline with 250 points. Verify it appears on the Today tab with "★ 250" badge and awards 250 points when checked.
 
-- [ ] T002 [P] [US1] Change max attribute from "50" to "500" on the custom points input (#addPoints) in index.html
-- [ ] T003 [P] [US1] Change validation cap from 50 to 500 in the add form submit handler in app.js (around line 486-487: `if (pts > 50) pts = 50` → `if (pts > 500) pts = 500`)
-- [ ] T004 [US1] Manually test: open Add Discipline modal, type 250, submit. Verify discipline saves with 250 points and displays correctly on Today tab
+- [x] T002 [P] [US1] Change max attribute from "50" to "500" on the custom points input (#addPoints) in index.html
+- [x] T003 [P] [US1] Change validation cap from 50 to 500 in the add form submit handler in app.js (around line 486-487: `if (pts > 50) pts = 50` → `if (pts > 500) pts = 500`)
+- [x] T004 [US1] Manually test: open Add Discipline modal, type 250, submit. Verify discipline saves with 250 points and displays correctly on Today tab
 
 **Checkpoint**: Users can now create disciplines with values 1–500. MVP complete.
 
@@ -43,9 +43,9 @@
 
 **Independent Test**: Go to Manage tab, change an existing discipline's points to 150, verify it updates everywhere.
 
-- [ ] T005 [P] [US2] Change max attribute from "50" to "500" in the renderManage() function's generated HTML string in app.js (around line 377: `max="50"` → `max="500"`)
-- [ ] T006 [P] [US2] Change validation cap from 50 to 500 in the manage tab points change handler in app.js (around line 406-407: `if (val > 50) val = 50` → `if (val > 500) val = 500`)
-- [ ] T007 [US2] Manually test: go to Manage tab, edit a discipline's points to 300, verify value persists and shows correctly on Today tab and Points tab
+- [x] T005 [P] [US2] Change max attribute from "50" to "500" in the renderManage() function's generated HTML string in app.js (around line 377: `max="50"` → `max="500"`)
+- [x] T006 [P] [US2] Change validation cap from 50 to 500 in the manage tab points change handler in app.js (around line 406-407: `if (val > 50) val = 50` → `if (val > 500) val = 500`)
+- [x] T007 [US2] Manually test: go to Manage tab, edit a discipline's points to 300, verify value persists and shows correctly on Today tab and Points tab
 
 **Checkpoint**: Users can now both create and edit disciplines with values 1–500.
 
@@ -57,9 +57,9 @@
 
 **Independent Test**: Open Add Discipline modal, verify presets show 5, 10, 25, 50, 100. Tap each and confirm the input updates.
 
-- [ ] T008 [US3] Change preset button data-pts values from "2, 5, 10, 15, 20" to "5, 10, 25, 50, 100" in index.html (lines 73-77)
-- [ ] T009 [US3] Update the default preset selection in the modal open handler in app.js (around line 446) to highlight "5" as the default preset matching the default value of 5
-- [ ] T010 [US3] Manually test: open Add Discipline modal, verify presets show 5/10/25/50/100, tap each one, confirm input updates and button highlights correctly
+- [x] T008 [US3] Change preset button data-pts values from "2, 5, 10, 15, 20" to "5, 10, 25, 50, 100" in index.html (lines 73-77)
+- [x] T009 [US3] Update the default preset selection in the modal open handler in app.js (around line 446) to highlight "5" as the default preset matching the default value of 5
+- [x] T010 [US3] Manually test: open Add Discipline modal, verify presets show 5/10/25/50/100, tap each one, confirm input updates and button highlights correctly
 
 **Checkpoint**: All three user stories complete.
 
@@ -69,10 +69,10 @@
 
 **Purpose**: Verify no layout issues across all tabs with larger point values.
 
-- [ ] T011 Verify points badge ("★ 500") does not overflow discipline cards on Today tab at 320px and 520px widths in style.css — adjust badge padding/min-width only if overflow occurs
-- [ ] T012 Verify Points tab balance card, chart, and exchange rate render correctly with point totals in the hundreds
-- [ ] T013 Verify Analysis tab per-discipline rate bars display correctly for disciplines with high point values
-- [ ] T014 Run full quickstart.md test scenarios (7 scenarios) to confirm end-to-end behavior
+- [x] T011 Verify points badge ("★ 500") does not overflow discipline cards on Today tab at 320px and 520px widths in style.css — adjust badge padding/min-width only if overflow occurs
+- [x] T012 Verify Points tab balance card, chart, and exchange rate render correctly with point totals in the hundreds
+- [x] T013 Verify Analysis tab per-discipline rate bars display correctly for disciplines with high point values
+- [x] T014 Run full quickstart.md test scenarios (7 scenarios) to confirm end-to-end behavior
 
 ---
 
