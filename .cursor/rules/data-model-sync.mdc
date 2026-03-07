@@ -1,0 +1,31 @@
+---
+description: Reminder to sync the app-wide ERD when persisted data changes
+globs:
+  - app.js
+  - specs/*/data-model.md
+---
+
+# Data Model Sync Rule
+
+When a feature changes the **persisted data model** (localStorage keys or the shape/fields of any stored object), the app-wide ERD at `.specify/memory/app-data-model.md` must be updated.
+
+## When to trigger
+
+- A new field is added to an entity stored in localStorage (e.g. adding `schedule` to disciplines).
+- An existing field's type, validation range, or semantics change (e.g. points range 1–50 → 1–500).
+- A new localStorage key is introduced or an existing one is removed.
+- A feature's `data-model.md` documents schema changes.
+
+## What to do
+
+After the feature's `data-model.md` is written or updated, run:
+
+```
+/speckit.sync-data-model
+```
+
+This merges the feature's changes into the global ERD and appends a change log entry.
+
+## ERD location
+
+`.specify/memory/app-data-model.md`
