@@ -4,7 +4,7 @@ A warm, gentle self-care app built with love — for neurodivergent people, high
 
 ## Why this exists
 
-Some of us experience the world a little differently. Our brains are precision instruments — powerful, but sensitive. We feel things deeply, we notice everything, and we often forget to take care of ourselves while taking care of everyone else.
+Some of us experience the world a little differently. Our brains are precision instruments — powerful, insightful with strong discernment, strategic but sensitive. We feel things deeply, we notice everything, and we often forget to take care of ourselves while taking care of everyone else.
 
 Daily Disciplines was created to change that. It's a small, cozy space where building healthy habits feels like a game, not a chore. No judgment, no shame — just gentle encouragement and the quiet satisfaction of checking things off.
 
