@@ -1,0 +1,30 @@
+# daily-disciplines Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-03-07
+
+## Active Technologies
+
+- JavaScript (ES5-style, no build); HTML5; CSS3 + None (Google Fonts Nunito only) (002-discipline-scheduling)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+npm test && npm run lint
+
+## Code Style
+
+JavaScript (ES5-style, no build); HTML5; CSS3: Follow standard conventions
+
+## Recent Changes
+
+- 002-discipline-scheduling: Added JavaScript (ES5-style, no build); HTML5; CSS3 + None (Google Fonts Nunito only)
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
